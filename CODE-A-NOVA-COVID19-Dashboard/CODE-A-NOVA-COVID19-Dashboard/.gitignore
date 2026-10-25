@@ -1,0 +1,14 @@
+# Python environments
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Editors and notebooks
+.vscode/
+.ipynb_checkpoints/
+
+# Secrets and OS files
+.env
+.DS_Store
+Thumbs.db

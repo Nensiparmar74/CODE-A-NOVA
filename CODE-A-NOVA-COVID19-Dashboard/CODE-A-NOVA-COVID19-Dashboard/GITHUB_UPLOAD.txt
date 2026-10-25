@@ -1,0 +1,19 @@
+# Upload to GitHub
+
+1. Extract the ZIP file.
+2. Create a new repository named `CODE-A-NOVA-COVID19-Dashboard` at https://github.com/new.
+3. For the easiest first push, create it without a README/license/gitignore.
+4. Open PowerShell or a terminal in the extracted project folder and run:
+
+```bash
+git init
+git add .
+git commit -m "Add COVID-19 data analysis dashboard"
+git branch -M main
+git remote add origin https://github.com/YOUR-USERNAME/CODE-A-NOVA-COVID19-Dashboard.git
+git push -u origin main
+```
+
+Replace `YOUR-USERNAME` with your GitHub username.
+
+Then install dependencies and run the dashboard as described in README.md.
