@@ -1,0 +1,17 @@
+[
+  {
+    "model": "Random Forest",
+    "best_parameters": {
+      "n_estimators": 50,
+      "max_depth": 25,
+      "min_samples_split": 2,
+      "min_samples_leaf": 1
+    },
+    "best_cv_r2": 0.983,
+    "pre_tuning_cv_r2": 0.9827,
+    "improvement_pct": 0.03,
+    "test_r2": 0.9813,
+    "test_mae": 4589.79,
+    "test_rmse": 11654.74
+  }
+]

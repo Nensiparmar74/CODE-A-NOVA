@@ -1,0 +1,19 @@
+{
+  "dataset_test_samples": 5187,
+  "mae": 4578.97,
+  "rmse": 11648.96,
+  "r2_score": 0.9813,
+  "normalized_mae": 0.0584,
+  "mean_actual_yield": 78396.6,
+  "residual_mean": 333.41,
+  "residual_std": 11645.31,
+  "absolute_error_percentiles": {
+    "p25": 318.78069902320567,
+    "p50_median": 1262.2234287579477,
+    "p75": 4034.8287480601193,
+    "p90": 11162.557646330697,
+    "p95": 20620.936576190456
+  },
+  "within_10_percent_tolerance": 75.09,
+  "within_20_percent_tolerance": 87.68
+}

@@ -1,0 +1,11 @@
+artifact_uri: ./mlruns/0/run_001_linear_regression/artifacts
+end_time: 1790690545985
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: run_001_linear_regression
+run_name: Linear Regression
+run_uuid: run_001_linear_regression
+start_time: 1790690544985
+status: 3
+user_id: codeanova

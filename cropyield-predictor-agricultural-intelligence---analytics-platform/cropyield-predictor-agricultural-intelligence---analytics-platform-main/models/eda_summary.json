@@ -1,0 +1,358 @@
+{
+  "row_count": 25932,
+  "column_count": 7,
+  "unique_areas_count": 101,
+  "unique_crops_count": 10,
+  "year_min": 1990,
+  "year_max": 2013,
+  "missing_values_total": 0,
+  "duplicate_rows": 0,
+  "crop_yield_stats": [
+    {
+      "Item": "Cassava",
+      "count": 1889,
+      "mean": 145649.69242985707,
+      "median": 125305.0,
+      "std": 88461.00595818859,
+      "min": 11778,
+      "max": 385818
+    },
+    {
+      "Item": "Maize",
+      "count": 3824,
+      "mean": 37139.32034518829,
+      "median": 25557.0,
+      "std": 28171.544731564474,
+      "min": 849,
+      "max": 207556
+    },
+    {
+      "Item": "Plantains and others",
+      "count": 556,
+      "mean": 106041.32014388489,
+      "median": 89860.5,
+      "std": 72127.98272791375,
+      "min": 21350,
+      "max": 418505
+    },
+    {
+      "Item": "Potatoes",
+      "count": 3956,
+      "mean": 198665.72522750252,
+      "median": 180322.5,
+      "std": 94200.2608450095,
+      "min": 8406,
+      "max": 501412
+    },
+    {
+      "Item": "Rice, paddy",
+      "count": 3091,
+      "mean": 41296.02846975089,
+      "median": 36408.0,
+      "std": 19647.972569283877,
+      "min": 2034,
+      "max": 103895
+    },
+    {
+      "Item": "Sorghum",
+      "count": 2770,
+      "mean": 19099.77472924188,
+      "median": 13548.0,
+      "std": 15491.991641875356,
+      "min": 578,
+      "max": 206000
+    },
+    {
+      "Item": "Soybeans",
+      "count": 2940,
+      "mean": 16992.19013605442,
+      "median": 16006.0,
+      "std": 7693.921747013742,
+      "min": 50,
+      "max": 41609
+    },
+    {
+      "Item": "Sweet potatoes",
+      "count": 2593,
+      "mean": 119656.51561897417,
+      "median": 99940.0,
+      "std": 71587.39003352186,
+      "min": 8799,
+      "max": 400000
+    },
+    {
+      "Item": "Wheat",
+      "count": 3539,
+      "mean": 30125.68126589432,
+      "median": 25296.0,
+      "std": 18641.197352640706,
+      "min": 1706,
+      "max": 99387
+    },
+    {
+      "Item": "Yams",
+      "count": 774,
+      "mean": 112105.6330749354,
+      "median": 92593.0,
+      "std": 53330.650871011654,
+      "min": 11475,
+      "max": 250000
+    }
+  ],
+  "top_countries_yield": [
+    {
+      "Area": "United Kingdom",
+      "count": 184,
+      "mean": 240956.47826086957
+    },
+    {
+      "Area": "Belgium",
+      "count": 39,
+      "mean": 216468.46153846153
+    },
+    {
+      "Area": "Denmark",
+      "count": 50,
+      "mean": 214033.02
+    },
+    {
+      "Area": "Netherlands",
+      "count": 69,
+      "mean": 204151.20289855072
+    },
+    {
+      "Area": "Ireland",
+      "count": 46,
+      "mean": 197913.69565217392
+    },
+    {
+      "Area": "New Zealand",
+      "count": 92,
+      "mean": 191931.8260869565
+    },
+    {
+      "Area": "Sweden",
+      "count": 46,
+      "mean": 187405.5
+    },
+    {
+      "Area": "Bahrain",
+      "count": 29,
+      "mean": 153237.55172413794
+    },
+    {
+      "Area": "Norway",
+      "count": 46,
+      "mean": 146115.3260869565
+    },
+    {
+      "Area": "Switzerland",
+      "count": 92,
+      "mean": 144960.28260869565
+    },
+    {
+      "Area": "Germany",
+      "count": 270,
+      "mean": 143631.34444444443
+    },
+    {
+      "Area": "Finland",
+      "count": 46,
+      "mean": 135014.52173913043
+    },
+    {
+      "Area": "Japan",
+      "count": 784,
+      "mean": 128729.77678571429
+    },
+    {
+      "Area": "Mauritius",
+      "count": 101,
+      "mean": 125586.25742574257
+    },
+    {
+      "Area": "Jamaica",
+      "count": 161,
+      "mean": 122347.86956521739
+    },
+    {
+      "Area": "France",
+      "count": 138,
+      "mean": 114424.76811594203
+    },
+    {
+      "Area": "Egypt",
+      "count": 322,
+      "mean": 114375.30434782608
+    },
+    {
+      "Area": "Austria",
+      "count": 96,
+      "mean": 113044.35416666667
+    },
+    {
+      "Area": "Australia",
+      "count": 966,
+      "mean": 112951.4099378882
+    },
+    {
+      "Area": "Suriname",
+      "count": 138,
+      "mean": 107148.31884057971
+    }
+  ],
+  "yearly_trend": [
+    {
+      "Year": 1990,
+      "mean": 66722.1495766698,
+      "count": 1063
+    },
+    {
+      "Year": 1991,
+      "mean": 66496.03762935089,
+      "count": 1063
+    },
+    {
+      "Year": 1992,
+      "mean": 66934.41296625222,
+      "count": 1126
+    },
+    {
+      "Year": 1993,
+      "mean": 67568.48495575221,
+      "count": 1130
+    },
+    {
+      "Year": 1994,
+      "mean": 68371.55935251799,
+      "count": 1112
+    },
+    {
+      "Year": 1995,
+      "mean": 69462.68290522587,
+      "count": 1129
+    },
+    {
+      "Year": 1996,
+      "mean": 69898.32649420161,
+      "count": 1121
+    },
+    {
+      "Year": 1997,
+      "mean": 71120.52556053811,
+      "count": 1115
+    },
+    {
+      "Year": 1998,
+      "mean": 71450.57668161434,
+      "count": 1115
+    },
+    {
+      "Year": 1999,
+      "mean": 73496.13446126448,
+      "count": 1123
+    },
+    {
+      "Year": 2000,
+      "mean": 75197.37732506642,
+      "count": 1129
+    },
+    {
+      "Year": 2001,
+      "mean": 76487.63120567377,
+      "count": 1128
+    },
+    {
+      "Year": 2002,
+      "mean": 77542.74445430347,
+      "count": 1127
+    },
+    {
+      "Year": 2004,
+      "mean": 80538.68711656441,
+      "count": 1141
+    },
+    {
+      "Year": 2005,
+      "mean": 79875.66015971606,
+      "count": 1127
+    },
+    {
+      "Year": 2006,
+      "mean": 80254.66960352423,
+      "count": 1135
+    },
+    {
+      "Year": 2007,
+      "mean": 82466.27264808363,
+      "count": 1148
+    },
+    {
+      "Year": 2008,
+      "mean": 84226.84956521739,
+      "count": 1150
+    },
+    {
+      "Year": 2009,
+      "mean": 85256.55298308103,
+      "count": 1123
+    },
+    {
+      "Year": 2010,
+      "mean": 86406.88444830582,
+      "count": 1151
+    },
+    {
+      "Year": 2011,
+      "mean": 88779.47598253275,
+      "count": 1145
+    },
+    {
+      "Year": 2012,
+      "mean": 88619.5360205832,
+      "count": 1166
+    },
+    {
+      "Year": 2013,
+      "mean": 90361.69699570816,
+      "count": 1165
+    }
+  ],
+  "correlation_matrix": {
+    "Year": {
+      "Year": 1.0,
+      "average_rain_fall_mm_per_year": -0.006423,
+      "pesticides_tonnes": 0.135127,
+      "avg_temp": 0.013701,
+      "hg/ha_yield": 0.091327
+    },
+    "average_rain_fall_mm_per_year": {
+      "Year": -0.006423,
+      "average_rain_fall_mm_per_year": 1.0,
+      "pesticides_tonnes": 0.161483,
+      "avg_temp": 0.333694,
+      "hg/ha_yield": -0.004067
+    },
+    "pesticides_tonnes": {
+      "Year": 0.135127,
+      "average_rain_fall_mm_per_year": 0.161483,
+      "pesticides_tonnes": 1.0,
+      "avg_temp": 0.045577,
+      "hg/ha_yield": 0.065523
+    },
+    "avg_temp": {
+      "Year": 0.013701,
+      "average_rain_fall_mm_per_year": 0.333694,
+      "pesticides_tonnes": 0.045577,
+      "avg_temp": 1.0,
+      "hg/ha_yield": -0.1104
+    },
+    "hg/ha_yield": {
+      "Year": 0.091327,
+      "average_rain_fall_mm_per_year": -0.004067,
+      "pesticides_tonnes": 0.065523,
+      "avg_temp": -0.1104,
+      "hg/ha_yield": 1.0
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "dataset_name": "CropYield Predictor - Processed Agricultural Intelligence Dataset",
+  "total_records": 25932,
+  "total_columns": 7,
+  "columns": {
+    "Area": {
+      "description": "Country or sovereign territory where crop production occurred.",
+      "data_type": "string / category",
+      "role": "Categorical Feature",
+      "unique_values_count": 101,
+      "cleaning": "Trimmed whitespace, deduplicated",
+      "transformation": "One-Hot Encoded in ML Pipeline"
+    },
+    "Item": {
+      "description": "Botanical crop species harvested (e.g., Potatoes, Maize, Wheat).",
+      "data_type": "string / category",
+      "role": "Categorical Feature",
+      "unique_values_count": 10,
+      "categories": [
+        "Cassava",
+        "Maize",
+        "Plantains and others",
+        "Potatoes",
+        "Rice, paddy",
+        "Sorghum",
+        "Soybeans",
+        "Sweet potatoes",
+        "Wheat",
+        "Yams"
+      ],
+      "cleaning": "Validated against approved taxonomy list",
+      "transformation": "One-Hot Encoded in ML Pipeline"
+    },
+    "Year": {
+      "description": "Calendar harvest year of production record (1990 to 2013).",
+      "data_type": "integer",
+      "role": "Temporal Feature",
+      "min": 1990,
+      "max": 2013,
+      "cleaning": "Cast to int64, range bounded",
+      "transformation": "StandardScaled in Pipeline"
+    },
+    "hg/ha_yield": {
+      "description": "Crop productivity per unit area in hectograms per hectare.",
+      "data_type": "float64",
+      "role": "Target Variable (Continuous Regression)",
+      "min": 50.0,
+      "max": 501412.0,
+      "mean": 76978.13292457195,
+      "median": 39530.0,
+      "cleaning": "Validated > 0, genuine biological variance preserved",
+      "transformation": "Continuous regression target"
+    },
+    "average_rain_fall_mm_per_year": {
+      "description": "National annual average rainfall in millimeters.",
+      "data_type": "float64",
+      "role": "Environmental Feature",
+      "min": 51.0,
+      "max": 3240.0,
+      "mean": 1146.8366882616074,
+      "cleaning": "Verified non-negative, cast to float",
+      "transformation": "StandardScaled in Pipeline + Rainfall Bins"
+    },
+    "pesticides_tonnes": {
+      "description": "Total annual agricultural pesticide active ingredients used in metric tonnes.",
+      "data_type": "float64",
+      "role": "Agrochemical Feature",
+      "min": 0.04,
+      "max": 367778.0,
+      "mean": 34782.57324078359,
+      "cleaning": "Verified non-negative, cast to float",
+      "transformation": "StandardScaled in Pipeline"
+    },
+    "avg_temp": {
+      "description": "Mean annual land surface temperature in degrees Celsius (\u00b0C).",
+      "data_type": "float64",
+      "role": "Climatic Feature",
+      "min": 1.3,
+      "max": 30.65,
+      "mean": 20.422250501311122,
+      "cleaning": "Verified within physical atmospheric range (-40 to 60\u00b0C)",
+      "transformation": "StandardScaled in Pipeline + Hydrothermal index"
+    }
+  }
+}

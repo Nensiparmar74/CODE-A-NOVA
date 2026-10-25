@@ -1,0 +1,11 @@
+artifact_uri: ./mlruns/0/run_005_gradient_boosting/artifacts
+end_time: 1790690545992
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: run_005_gradient_boosting
+run_name: Gradient Boosting
+run_uuid: run_005_gradient_boosting
+start_time: 1790690544992
+status: 3
+user_id: codeanova

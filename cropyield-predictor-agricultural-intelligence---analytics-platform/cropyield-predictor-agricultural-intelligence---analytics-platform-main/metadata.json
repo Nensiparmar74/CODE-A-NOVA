@@ -1,0 +1,6 @@
+{
+  "name": "CropYield Predictor — Agricultural Intelligence & Analytics Platform",
+  "description": "End-to-end Data Science and Machine Learning platform for predicting crop yields with EDA, Scikit-Learn Pipelines, 5-Fold Cross-Validation, Hyperparameter Tuning, and Interactive Analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,11 @@
+artifact_uri: ./mlruns/0/run_006_tuned_random_forest/artifacts
+end_time: 1790690545993
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: run_006_tuned_random_forest
+run_name: Tuned Random Forest
+run_uuid: run_006_tuned_random_forest
+start_time: 1790690544993
+status: 3
+user_id: codeanova

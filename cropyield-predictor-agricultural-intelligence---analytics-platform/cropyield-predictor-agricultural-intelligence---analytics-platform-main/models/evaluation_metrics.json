@@ -1,0 +1,20 @@
+{
+  "final_model": "Tuned Random Forest Regressor",
+  "best_parameters": {
+    "n_estimators": 50,
+    "max_depth": 25,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1
+  },
+  "test_mae": 4589.79,
+  "test_rmse": 11654.74,
+  "test_r2": 0.9813,
+  "dataset_test_samples": 5187,
+  "mean_actual_yield": 78396.6,
+  "normalized_mae": 0.0585,
+  "within_10_percent_tolerance": 75.03,
+  "within_20_percent_tolerance": 87.83,
+  "pre_tuning_cv_r2": 0.9827,
+  "post_tuning_cv_r2": 0.983,
+  "improvement_pct": 0.03
+}

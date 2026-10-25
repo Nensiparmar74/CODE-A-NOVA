@@ -1,0 +1,5 @@
+{
+  "experiment": "CropYield-Predictor-Experiments",
+  "runs": 6,
+  "tracking_mode": "Local filesystem artifact layout; Python code logs through MLflow API when mlflow is installed."
+}

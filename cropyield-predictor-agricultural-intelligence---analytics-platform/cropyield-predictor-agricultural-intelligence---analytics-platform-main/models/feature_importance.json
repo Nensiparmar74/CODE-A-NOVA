@@ -1,0 +1,122 @@
+[
+  {
+    "feature": "Item_Potatoes",
+    "importance": 0.372848
+  },
+  {
+    "feature": "Item_Cassava",
+    "importance": 0.091538
+  },
+  {
+    "feature": "Item_Sweet potatoes",
+    "importance": 0.085872
+  },
+  {
+    "feature": "Area_India",
+    "importance": 0.057388
+  },
+  {
+    "feature": "pesticide_log",
+    "importance": 0.040242
+  },
+  {
+    "feature": "avg_temp",
+    "importance": 0.037985
+  },
+  {
+    "feature": "pesticides_tonnes",
+    "importance": 0.034528
+  },
+  {
+    "feature": "temp_rainfall_interaction",
+    "importance": 0.033962
+  },
+  {
+    "feature": "Year",
+    "importance": 0.03167
+  },
+  {
+    "feature": "average_rain_fall_mm_per_year",
+    "importance": 0.02877
+  },
+  {
+    "feature": "Item_Yams",
+    "importance": 0.024489
+  },
+  {
+    "feature": "hydrothermal_index",
+    "importance": 0.022932
+  },
+  {
+    "feature": "Area_Australia",
+    "importance": 0.016627
+  },
+  {
+    "feature": "Item_Plantains and others",
+    "importance": 0.016409
+  },
+  {
+    "feature": "Area_Japan",
+    "importance": 0.014533
+  },
+  {
+    "feature": "Area_United Kingdom",
+    "importance": 0.009134
+  },
+  {
+    "feature": "Area_Guatemala",
+    "importance": 0.005716
+  },
+  {
+    "feature": "Area_Ecuador",
+    "importance": 0.004443
+  },
+  {
+    "feature": "Area_Canada",
+    "importance": 0.004366
+  },
+  {
+    "feature": "Area_South Africa",
+    "importance": 0.003904
+  },
+  {
+    "feature": "Item_Rice, paddy",
+    "importance": 0.003768
+  },
+  {
+    "feature": "Area_Suriname",
+    "importance": 0.003583
+  },
+  {
+    "feature": "Item_Maize",
+    "importance": 0.002957
+  },
+  {
+    "feature": "Item_Soybeans",
+    "importance": 0.002901
+  },
+  {
+    "feature": "Area_Croatia",
+    "importance": 0.002892
+  },
+  {
+    "feature": "Area_Mexico",
+    "importance": 0.002319
+  },
+  {
+    "feature": "Area_Sweden",
+    "importance": 0.002262
+  },
+  {
+    "feature": "Area_Germany",
+    "importance": 0.002142
+  },
+  {
+    "feature": "Area_Mauritania",
+    "importance": 0.002102
+  },
+  {
+    "feature": "Area_Chile",
+    "importance": 0.002015
+  }
+]

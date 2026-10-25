@@ -1,0 +1,16 @@
+{
+  "project": "CropYield Predictor",
+  "final_model": "Tuned Random Forest Regressor",
+  "pipeline_steps": [
+    "IQRCapper",
+    "AgriculturalFeatureEngineer",
+    "ColumnTransformer",
+    "RandomForestRegressor"
+  ],
+  "training_random_state": 42,
+  "test_size": 0.2,
+  "python_version": "3.13.5",
+  "sklearn_version": "1.8.0",
+  "joblib_version": "1.5.3",
+  "serialization_validation": "Loaded successfully with current environment and predicted one sample."
+}
