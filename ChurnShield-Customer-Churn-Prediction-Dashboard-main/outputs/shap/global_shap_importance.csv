@@ -1,0 +1,21 @@
+feature,mean_abs_shap
+num__tenure,1.0666508593756259
+num__MonthlyCharges,0.9821915696798306
+cat__InternetService_Fiber optic,0.4657760747276933
+num__TotalCharges,0.45224730731404156
+cat__InternetService_DSL,0.35006012037235296
+cat__Contract_Month-to-month,0.3220566589059325
+cat__Contract_Two year,0.2741077627006148
+cat__StreamingMovies_Yes,0.18729657058593363
+cat__StreamingTV_Yes,0.18117342901282193
+cat__PaperlessBilling_No,0.1251387534079664
+cat__StreamingMovies_No,0.11260922132838085
+cat__PaymentMethod_Electronic check,0.1076102911216072
+cat__StreamingTV_No,0.10634549463423296
+cat__OnlineSecurity_No internet service,0.10613676032650501
+cat__StreamingMovies_No internet service,0.10613676032650501
+cat__TechSupport_No internet service,0.10613676032650501
+cat__OnlineBackup_No internet service,0.10613676032650501
+cat__InternetService_No,0.10613676032650501
+cat__DeviceProtection_No internet service,0.10613676032650501
+cat__StreamingTV_No internet service,0.10613676032650501
