@@ -1,0 +1,19 @@
+# Upload this project to GitHub
+
+1. Extract this ZIP.
+2. Create a repository named `CODE-A-NOVA-Customer-Segmentation` at https://github.com/new.
+3. For the easiest first push, create it without a README/license/gitignore.
+4. Open a terminal in this folder and run:
+
+```bash
+git init
+git add .
+git commit -m "Add customer segmentation project"
+git branch -M main
+git remote add origin https://github.com/YOUR-USERNAME/CODE-A-NOVA-Customer-Segmentation.git
+git push -u origin main
+```
+
+Replace `YOUR-USERNAME` with your GitHub username.
+
+Before running the program, download `Mall_Customers.csv` from the Kaggle link in README.md and put it in `data/`.
